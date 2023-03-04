@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
@@ -7,16 +8,145 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-<title>Title of the document</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+    <meta charset="utf-8" />
+    <title>All Things Sweet</title>
 </head>
 
 <body>
-The content of the document...     OK
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="col">
+                <h1>All Things Sweet</h1>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#projectNavbar">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#projectNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="#projectNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="#">
+                            <li> Home</li></a>
+                            <li class="nav-item"><a class="nav-link" href="ourstory.html">
+                            <li> Our Story</li></a>
+                            <li class="nav-item"><a class="nav-link" href="cakescookies.html">
+                            <li>Cakes & Cookies</li></a>
+                            <li class="nav-item"><a class="nav-link" href="#">
+                                    </i> Contact </li></a>
+                        </ul>
+                        <span class="navbar-text ml-auto">
+                            <a role="button" id="mycartButton">
+                                <i class="fa fa-sign-in"></i> My Cart
+                            </a>
+                        </span>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <h2>Welcome to All Things Sweet</h2>
+    <h3>Explore the Cakes and Cookies there is to offer, there is something sweet for any occasion!</h3>
+    <div class="col p-3">
+        <div class="media">
+            <img class="d-flex m-auto" src="img/Strawberry-Cake.jpeg" alt="Strawberry-Cake" width="800" height="400" />
+        </div>
+    </div>
+    <hr />
+    <div class="row row-content">
+        <div class="col-5">
+            <h2>Leave a review!</h2>
 
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </div>
+
+        <div class="col-md-8">
+            <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName"
+                            placeholder="First Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="You number" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Your Review</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-2">
+                        <button type="submit" class="btn btn-info">Send Review</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+<hr/>
+<h2>Bake Shop Hours </h2>
+<p>Monday: 8:00am - 6:00pm</p>
+<p>Tuesday: 8:00am - 6:00pm</p>
+<p>Wednesday: 8:00am - 6:00pm</p>
+<p>Thursday: 8:00am - 6:00pm</p>
+<p>Friday: 8:00am - 6:00pm</p>
+Saturday & Sunday: 9:00am - 5:00pm
+    <footer class="web-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Cookies & Cakes</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+4072223333"><i class="fa fa-phone"></i>
+                        407-222-3333</a>
+                    <br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                            class="fa fa-envelope-o"></i> allthingssweet@sweet.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
