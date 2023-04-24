@@ -6,7 +6,6 @@
 
  body {
   text-align: center;
-  
  }
 
  .web-footer {
@@ -25,4 +24,14 @@ h1, h2 {
 
 h3 {
   font-family: 'Noto Sans', sans-serif;
+}
+
+iframe {
+  width: 80%;
+
+}
+
+.contact1 {
+  background-color: burlywood;
+  height: 80px;
 }
